@@ -1,6 +1,6 @@
 from sqlalchemy import Column, String, Date
 
-from core.db import Base
+from app.core.db import Base
 
 
 class Clients(Base):
